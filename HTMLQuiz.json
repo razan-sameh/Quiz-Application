@@ -1,0 +1,42 @@
+[
+    {
+        "Que" : "HTML stands for -",
+        "choices" :["HighText Machine Language",        
+        "HyperText and links Markup Language",
+        "HyperText Markup Language",
+        "None of these"],
+        "Ans" : "HyperText Markup Language"
+    },
+    {
+        "Que" : "The correct sequence of HTML tags for starting a webpage is -",
+        "choices" :["Head, Title, HTML, body",        
+        "HTML, Body, Title, Head",
+        "HTML, Head, Title, Body",
+        "HTML, Head, Title, Head"],
+        "Ans" : "HTML, Head, Title, Body"
+    },
+    {
+        "Que" : "Which of the following element is responsible for making the text bold in HTML?",
+        "choices" :["<pre>",        
+        "<a>",
+        "<b>",
+        "<br>"],
+        "Ans" : "<b>"
+    },
+    {
+        "Que" : "How to create a hyperlink in HTML?",
+        "choices" :["<a href = \"www.javatpoint.com\"> javaTpoint.com </a>",        
+        "<a url = \"www.javatpoint.com\" javaTpoint.com /a>",
+        "<a link = \"www.javatpoint.com\"> javaTpoint.com </a>",
+        "<a> www.javatpoint.com <javaTpoint.com /a>"],
+        "Ans" : "<a href = \"www.javatpoint.com\"> javaTpoint.com </a>"
+    },
+    {
+        "Que" : "How to create a checkbox in HTML?",
+        "choices" :["<input type = \"checkbox\">",        
+        "<input type = \"button\">",
+        "<checkbox>",
+        "<input type = \"check\">"],
+        "Ans" : "<input type = \"checkbox\">"
+    }
+]

@@ -1,0 +1,95 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+    --BGcolor: #f8f8f8;
+    --bordercolor: #dfdfdf;
+    --maincolor: #0075ff;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.main{
+    background-color: var(--BGcolor);
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.header{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.QuesArea{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.Ques{
+    margin: 0px;
+}
+.AnsArea{
+    background-color: white;
+    padding: 20px;
+}
+.Ans {
+    background-color: var(--BGcolor);
+    padding: 10px;
+    border-color: #eeee;
+}
+.Ans:not(:last-child) {
+    border-bottom: 1px solid #cccc;
+}
+input[type="radio"]:checked{
+    accent-color: var(--maincolor);
+}
+.Ans input:checked + label {
+    color: var(--maincolor)
+}
+.Ans label {
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    text-align: center;
+    background-color: var(--maincolor);
+    color: white;
+    border: 0px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.footer{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 50px;
+    border-top: 1px solid var(--bordercolor);
+    margin-top: 10px;
+}
+.polits{
+    display: flex;
+    align-items: center;
+}
+.polits span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--bordercolor);
+    margin: 2px;
+}
+.footer .curr{
+    background-color: var(--maincolor);
+}
