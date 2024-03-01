@@ -12,3 +12,6 @@ QuizMaster is a feature-rich quiz application built using HTML, CSS, and JavaScr
 - Grade Tracker: QuizMaster keeps track of users' progress throughout the quiz, providing a final grade upon completion. Users can review their performance and identify areas for improvement.
 
 - Responsive Design: The application is designed to be responsive across various devices, ensuring a consistent and optimized experience whether accessed on desktop, tablet, or mobile.
+
+##
+Open demo from [here](https://quiz-application-4452e.web.app/)
